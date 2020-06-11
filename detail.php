@@ -122,10 +122,12 @@
             pollInterval = setInterval(
                 function() {
                     $.ajax({
-                        url: "", //Completar con endpoint de backend y los parámetros necesarios para obtener el estado
+                        url: "validarPago.php", //Completar con endpoint de backend y los parámetros necesarios para obtener el estado
                         dataType: 'json',
                         type: 'get',
                         success: function(data) {
+
+                            console.log(data);
                             //Actualizar estado actual en pantalla
 
                         },

