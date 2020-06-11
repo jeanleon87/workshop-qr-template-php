@@ -2,8 +2,7 @@
 
 
 
-echo '<pre>' . print_r($_POST) . '</pre>';
-die(1);
+echo '<pre>' . print_r($_GET) . '</pre>';
 
 
 ?>
