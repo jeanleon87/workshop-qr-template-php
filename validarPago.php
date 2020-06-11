@@ -1,8 +1,12 @@
 <?php
 
+var_dump($_GET);
 
+echo '--------------------------------------------<br>';
 
-echo '<pre>' . print_r($_GET) . '</pre>';
+var_dump($_POST);
+
+//
 die(1);
 
 
