@@ -1,6 +1,9 @@
 <?php
 
-$user_id = '581910860';
+echo '<pre>' . print_r($_POST, true) . '</pre>';
+die(1);
+
+/* $user_id = '581910860';
 $external_id = 'CAJA0004';
 $access_token = 'APP_USR-3877150961712175-060915-018ba42fa9fd584bcb54871ce13534cd-581910860';
 
@@ -8,7 +11,7 @@ $url = 'https://api.mercadopago.com/mpmobile/instore/qr/' . $user_id . '/' . $ex
 
 $body = array(
     'external_reference' => 'Factura-0001',
-    'notification_url' => 'https://jeanleon87-mp-commerce-php.herokuapp.com/validarPago.php',
+    'notification_url' => 'www.yourserver.com',
     'items' => array($_POST['item']),
     'sponsor_id' => '446566691'
 );
@@ -37,3 +40,4 @@ $response = curl_exec($curl);
 
 curl_close($curl);
 echo $response;
+ */
