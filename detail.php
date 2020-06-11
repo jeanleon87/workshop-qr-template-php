@@ -98,7 +98,9 @@
                 url: 'createOrder.php', //archivo que recibe la peticion
                 type: 'post', //método de envio
                 success: function(response) { //una vez que el archivo recibe el request lo procesa y lo devuelve
-                    $("#order_status").html(response);
+                    //$("#order_status").html(response);
+
+                    startStatusPolling();
                 },
                 error: function(data) {
                     console.log('Error:', data);

@@ -1,5 +1,9 @@
 <?php
 
-    $response = $_POST;
 
-    echo $response;
+
+echo '<pre>' . print_r($_POST) . '</pre>';
+die(1);
+
+
+?>
