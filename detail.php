@@ -95,7 +95,7 @@
 
             $.ajax({
                 data: parametros, //datos que se envian a traves de ajax
-                url: 'backend.php', //archivo que recibe la peticion
+                url: 'createOrder.php', //archivo que recibe la peticion
                 type: 'post', //método de envio
                 success: function(response) { //una vez que el archivo recibe el request lo procesa y lo devuelve
                     $("#order_status").html(response);
